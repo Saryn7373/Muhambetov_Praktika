@@ -1,0 +1,94 @@
+@import "./reset.css";
+
+:root {
+    font-size: 52.5%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #230B3F;
+    color: #230B3F;
+    padding: 16px 62px;
+}
+footer {
+    margin-top: 80px;
+    padding: 60px 62px;
+}
+
+.nameTag h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.nameTag p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.nameTagFooter h2 {
+    font-size: 6.4rem;
+    font-weight: 600;
+}
+.nameTagFooter p {
+    font-size: 3.4rem;
+    font-weight: 500;
+}
+
+header ul, footer ul {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+
+a:hover, a:visited, a:active, a:link {
+    color: #FFFFFF;
+}
+
+.first, .second {
+    padding: 0 62px;
+    margin: 75px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content {
+    width: 50%;
+}
+
+.text-content h1 {
+    text-transform: uppercase;
+    font-size: 8rem;
+    font-weight: 700;
+}
+
+.text-content p, .text-content ul {
+    font-size: 2.8rem;
+    color: #534068;
+    line-height: 120%;
+    margin: 30px 0;
+}
+
+.piano, .trumpet {
+    width: calc(760 / 1920 * 100%);
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.text-content h2 {
+    font-family: 'Nunito';
+    font-size: 5.8rem;
+    color: #230B3F;
+    font-weight: 700;
+}
+
+.text-content ul li {
+    list-style-type: disc;
+    margin: 20px 33px
+}
